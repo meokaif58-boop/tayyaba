@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    *{margin: 0;
+    padding: auto;
+  font-family: Arial, Helvetica, sans-serif;}
+    #main-nav{list-style-type: none;
+    background-color: black;
+  overflow: hidden;
+display: grid;
+grid-template-columns: repeat(6, Auto);
+text-align: center;
+justify-content: center;}
+    li a {text-decoration: none;
+    float: left;
+  padding: 14px 16px;
+color: #ffffff;}
+
+a:hover{background: #f1f1f1;
+color: black;}
+
+@media (max-width:700px)
+{
+  ul{grid-template-columns: repeat(1,auto);}
+  
+}
+
+.main-banner{display: grid;
+grid-template-columns: repeat(2,auto);
+max-width: 60%;
+margin: auto;
+}
+
+@media (max-width:700px)
+{
+  .main-banner{grid-template-columns: repeat(1,auto);}
+  
+}
+
+
+.banner-image,{text-align: center;}
+.banner-text{margin-top: 150px;}
+
+.body-container{background: #f1f1f1;
+height: 500px;}
+.product{width: 350px;
+height: 250px;}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+/* footer start */
+
+.footer_container{
+  
+  padding: 60px;
+  
+  display: grid;
+
+grid-template-columns: repeat(2,auto);
+justify-content: center;}
+.inner-footer{
+width: 720px;}
+/* footer end */
+  </style>
+</head>
+<body>
+  <!-- nav start -->
+  <ul id="main-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="">Register</a></li>
+  </ul>
+<!-- nav end -->
+
+  <!-- hero section start -->
+  <div class="main-banner">
+    
+    <div class="banner-text" >
+      <h1>BEST COMNPUTER INSTITUTE</h1><br><br>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, qui.
+        Culpa nulla odio nam maxime aperiam odit similique quod nesciunt.
+        Aliquid, aliquam nisi officia blanditiis id ducimus nulla recusandae suscipit.
+        Nesciunt tenetur nobis sapiente quibusdam error repellendus reiciendis, eius nam!
+        Facilis praesentium quisquam odio magni nobis rerum minus quia ipsa?
+        Blanditiis veritatis ratione nihil est? Distinctio deleniti officia nobis eveniet.
+      </p>
+<br><br>
+      <button style="background: blue; color: white;">Register</button>
+    </div>
+
+    <div class="banner-image" "><img src="gif.jpeg" alt="" style="max-width: 100%;"></div>
+  </div>
+  <!-- hero section end -->
+
+  <!-- body content start -->
+   <div class="body-container " style="text-align: center" id="courses">
+    <div class="body-heading" style="padding-top: 50px;" ><h1>OUR COURSES</h1></div>
+<div class="product-container" style="margin-top: 20px;">
+    <div class="product"><img src="a.jpg" style="max-width: 100%;"></div>
+    <div class="product"><img src="b.jpeg" style="max-width: 100%;"></div>
+    <div class="product"><img src="c.jpeg" style="max-width: 100%;"></div>
+</div>
+  </div>
+
+
+   <div class="body-container " style="text-align: center">
+    
+<div class="product-container">
+    <div class="product"><img src="e.webp" style="max-width: 100%;"></div>
+    <div class="product"><img src="f.jpg" style="max-width: 100%;"></div>
+    <div class="product"><img src="it.jpeg" style="max-width: 100%;"></div>
+</div>
+  </div>
+
+
+  <div class="footer_container" style="background: black;">
+<div style="width: 720px;" class="inner-footer">
+  <img src="c.png" alt="" width="150">
+  <p style="color: #f1f1f1;">
+    Lorem ipsum dolor sit amet.
+    Necessitatibus, numquam temporibus. Veritatis, adipisci.
+    Molestiae amet at voluptatem reiciendis.
+    Ipsa nostrum est eaque eum?
+    Tempora molestias assumenda corrupti dolore.
+    Tenetur non quia deleniti! Est?
+    Consectetur unde odio quibusdam ipsam.
+    Assumenda molestias iusto vel laudantium?
+    Pariatur est atque ab corporis!
+    Quis sequi eveniet velit quae.
+  </p>
+</div>
+
+<div class="inner-footer" style="color: #f1f1f1;">
+<ul id="footer_list" style="list-style-type: none; line-height: 30px;">
+  <li><i class="fa fa-phone"></i>  +92 313 3218891</li>
+  <li><i class="fa fa-envelope"></i>  info@gmail.com</li>
+  <li><i class="fa fa-address-book-o"></i>  80-C DHA Phase 2 Karachi Pakistan.</li>
+</ul>
+</div>
+  </div>
+<div>
+  <p>Copyright © 1997-2025, Infra.pk, All Rights Reserved.CS Support</p>
+</div>
+  <!-- body content end -->
+</body>
+</html>
